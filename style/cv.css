@@ -1,0 +1,16 @@
+@import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900);
+
+h1 h2 h3 {
+    font-family: "lato",sans-serif;
+}
+
+
+@font-face {
+    font-family: "Raleway";
+    src : url(../fonts/Raleway-Light.woff);
+    src : url(../fonts/Raleway-Light.ttf)format(truetype);
+}
+
+section {
+    font-family: "Raleway",serif;
+}
