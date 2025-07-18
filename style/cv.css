@@ -78,6 +78,11 @@ header {
     
 }
 
+.photo-contaner :hover{
+    cursor: zoom-in;
+
+}
+
 .Titre {
     flex: 1;
     text-align: center;
@@ -110,7 +115,7 @@ aside ul {
 }
 
 .stars {
-    color: #17abb3;
+    color: rgb(23, green171, blue179);
     font-size: 0.9em;
 }
 
@@ -118,10 +123,50 @@ aside ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
-    font-weight: bold
+    font-weight: bold;
 
 }
 
 .list li span {
     font-weight: normal;
+}
+
+section {
+     padding: 30px;
+    width: 70%;
+}
+
+.contenue{
+    display: flex;
+    align-items: flex-start;
+}
+
+section h3 {
+    color: #17abb3;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 1 px solid #17abb3;
+    padding-bottom: 5px;
+}
+
+section p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section span {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+section time {
+    color: #17abb3;
+    
+}
+
+.informations:hover {
+    background-color: #e3e3e3;
+    border-left: 3px solid #17abb3;
+
 }
