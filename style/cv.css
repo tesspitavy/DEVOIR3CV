@@ -170,3 +170,41 @@ section time {
     border-left: 3px solid #17abb3;
 
 }
+
+footer {
+  background-color: #18a3ab; /* turquoise comme en haut */
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  filter: brightness(0) invert(1); /* rend l'icône blanche si noire */
+}
+
+.footer img:hover {
+  transform: scale(1.2);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+}
